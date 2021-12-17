@@ -1,0 +1,26 @@
+#!groovy
+pipeline{
+ agent any
+ 
+  tools {
+    maven 'maven'
+  }
+ 
+ stages{
+ 
+   stage("build"){
+   
+       steps{
+       
+          bat "mvn -f ./jenkinscicddemo clean install -DskipTests"
+          bat "cd jenkinscicddemo  & docker-compose up -d"
+                                   
+       }
+   
+   }
+ 
+ }
+ 
+ 
+ 
+}

@@ -1,0 +1,16 @@
+com\eric\ecommerce\services\ProductService.class
+com\eric\ecommerce\controllers\StockController.class
+com\eric\ecommerce\EcommerceApplication.class
+com\eric\ecommerce\models\Stock.class
+com\eric\ecommerce\repositories\LocationRepository.class
+com\eric\ecommerce\repositories\ProductRepository.class
+com\eric\ecommerce\services\StockService.class
+com\eric\ecommerce\models\ProductType.class
+com\eric\ecommerce\configurations\SwaggerConfiguration.class
+com\eric\ecommerce\models\Address.class
+com\eric\ecommerce\models\Location.class
+com\eric\ecommerce\controllers\ProductController.class
+com\eric\ecommerce\controllers\LocationController.class
+com\eric\ecommerce\repositories\StockRepository.class
+com\eric\ecommerce\services\LocationService.class
+com\eric\ecommerce\models\Product.class
