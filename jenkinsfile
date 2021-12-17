@@ -12,8 +12,8 @@ pipeline{
    
        steps{
        
-          bat "mvn -f ./rpsinteljenkinslab clean install -DskipTests"
-          bat "cd rpsinteljenkinslab  & docker-compose up -d"
+          bat "mvn -f ./ clean install -DskipTests"
+          bat "docker-compose up -d"
                                    
        }
    
